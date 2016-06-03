@@ -6,17 +6,19 @@
 //User Interface logic:
 
 $(document).ready(function() {
- $("#quiz").submit(function(event) {
+ $("form#submit").submit(function(event) {
    event.preventDefault();
    var weather = $("submit:radio[name=weather]:checked").val();
    var location = $("submit:radio[name=location]:checked").val();
    var city = $("submit:radio[name=city]:checked").val();
    var active = $("submit:radio[name=active]:checked").val();
    var cheap = $("submit:radio[name=cheap]:checked").val();
-   alert("I am here");
-   if (weather) {
-// stuck here. trying to sort out how to build the conditional questions
 
+   if (weather === "warm") {
+      result = 30;
+      alert("stuck here")
+// stuck here. trying to sort out how to build the conditional questions
+// Thinking about using parseInt to create numbers
    $(".quiz").hide();
    $(".result").show();
 
