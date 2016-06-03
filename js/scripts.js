@@ -20,7 +20,17 @@ $(document).ready(function() {
    $(".result").show();
 
  } else {
-   alert("Please answer all of the questions before submitting.")
+   alert("Please answer all of the questions before submitting.");
  }
  });
+ $(".result button").click(function(event) {
+   event.preventDefault();
+   $(".result").hide();
+   $(".quiz").show();
+ });
+ });
+
+
+ });
+
 });
