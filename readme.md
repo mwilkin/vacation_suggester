@@ -9,7 +9,7 @@
 
 #####Please utilize the following link to navigate to a live version  of the site on Github Pages:
 
-<!--Insert hyperlink to Github io page  -->
+http://mwilkin.github.io/vacation_suggester
 
 #####This project utilizes CSS, Bootstrap and jQuery to build styles and functionality into a website.
 
