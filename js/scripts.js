@@ -58,8 +58,7 @@ debugger;
       total3 += 5;
     }
 
-    if (total1 > total2 && total1 > total3) {
-
+    if (total1 > total2 && total1 > total3) {      
       $("#switzerland").show();
       $("#belize").hide();
       $("#rockaway").hide();
@@ -73,9 +72,9 @@ debugger;
       $("#belize").hide();
 
     }
-
-    // return text(name);
-    // return text(date);
+    $("#result").show();
+    $(".name").text(name);
+    $(".date").text(date);
 
  });
 });

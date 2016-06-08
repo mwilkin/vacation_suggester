@@ -4,7 +4,7 @@ body {
   background-color: #E6E0E0;
 }
 
-#belize, #rockaway, #switzerland {
+#belize, #rockaway, #switzerland, #result {
   display: none;
 }
 
@@ -52,4 +52,10 @@ label {
 
 .navbar {
   font-size: 16px;
+}
+#result {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 15px;
+
 }
