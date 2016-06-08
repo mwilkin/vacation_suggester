@@ -3,7 +3,7 @@
 
 #####This project is demonstration of my programming skills as of the end of the second week of Intro to Programming at Epicodus.
 
-######Latest version as of: 6/3/2016
+######Latest version as of: 6/8/2016
 
 ####Matthew Wilkin
 
