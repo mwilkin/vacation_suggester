@@ -4,6 +4,9 @@ body {
   background-color: #E6E0E0;
 }
 
+#belize, #rockaway, #switzerland {
+  display: none;
+}
 .container {
   margin-top: 20px;
   background-color: #D4D4D4
@@ -28,8 +31,7 @@ p {
   margin-bottom: 32px;
   background-image: url(../images/switzerland.jpg);
   background-size: cover;
-  text-shadow: white 1px 1px 1px;
-
+  text-shadow: white 2px 2px 2px;
 }
 
 #label {
@@ -37,9 +39,8 @@ p {
   font-style: italic;
   font-weight: bolder;
   font-size: 18px;
-
-
 }
+
 label {
   margin: 5px
 }
@@ -50,5 +51,4 @@ label {
 
 .navbar {
   font-size: 16px;
-
 }
