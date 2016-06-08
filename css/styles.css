@@ -1,6 +1,7 @@
 body {
   margin: 50px;
   padding: 40px;
+  background-color: #E6E0E0;
 }
 
 .container {
@@ -17,18 +18,37 @@ h1 {
 
 p {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
+  padding-top: 25px;
 }
 
 .jumbotron {
-  padding-top: 70px;
+  padding: 80px;
   text-align: center;
+  margin-bottom: 32px;
+  background-image: url(../images/switzerland.jpg);
+  background-size: cover;
+  text-shadow: white 1px 1px 1px;
+
 }
 
+#label {
+  padding:10px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 18px;
+
+
+}
 label {
   margin: 5px
 }
 
 #submit {
   margin-top: 20px;
+}
+
+.navbar {
+  font-size: 16px;
+
 }
